@@ -14,7 +14,8 @@
     "build": "webpack --config webpack.prod.js"
   },
   "dependencies": {
-    "preact": "^10.11.1"
+    "preact": "^10.11.1",
+    "redux-zero": "5.1.7"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
