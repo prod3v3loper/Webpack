@@ -1,0 +1,41 @@
+{
+  "name": "webpack-kill-em-all",
+  "version": "1.0.1",
+  "description": "Webpack Preact Babel Typescript Sass Hot Module",
+  "private": true,
+  "sideEffects": false,
+  "keywords": [],
+  "author": "prod3v3loper",
+  "license": "MIT",
+  "scripts": {
+    "server": "webpack serve --open --config webpack.dev.js",
+    "watch": "webpack --watch",
+    "dev": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "dependencies": {
+    "preact": "^10.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.19.4",
+    "@babel/plugin-transform-typescript": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-typescript": "^7.18.6",
+    "babel-loader": "8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "less-loader": "^11.1.0",
+    "node-sass": "^7.0.3",
+    "sass-loader": "^13.1.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
