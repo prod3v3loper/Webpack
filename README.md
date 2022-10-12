@@ -4,7 +4,7 @@ This is a complete solution ready to use. All up to date packages.
 
 1 - Clone Repo
 
-`$ git clone`
+`$ git clone https://github.com/prod3v3loper/Webpack.git`
 
 2 - After that install dependencies
 
